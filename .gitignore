@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# builder cache (API back-fill responses)
+tools/.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
