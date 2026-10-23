@@ -79,7 +79,7 @@ writing a file.
 
 The site is plain static files; there is no build step. On GitHub open
 **Settings → Pages → Build and deployment → Deploy from a branch → `main` / `/ (root)`**.
-The explorer is then served at `https://<user>.github.io/Brussels-RadioTheranostics-Platform/`.
+The explorer is then served at `https://pingfan2007.github.io/RadioTheranostics-Platform/`.
 
 Any static host works the same way — the only requirement is that `index.html`, `assets/`
 and `data/` are served from the same origin.
