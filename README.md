@@ -75,6 +75,15 @@ each response under `tools/.cache/`; rebuilds then run offline.
 The builder is standard-library only (Python 3.10+). `--stats-only` prints counts without
 writing a file.
 
+## Deploy
+
+The site is plain static files; there is no build step. On GitHub open
+**Settings → Pages → Build and deployment → Deploy from a branch → `main` / `/ (root)`**.
+The explorer is then served at `https://<user>.github.io/Brussels-RadioTheranostics-Platform/`.
+
+Any static host works the same way — the only requirement is that `index.html`, `assets/`
+and `data/` are served from the same origin.
+
 ## Design
 
 The interface uses three blues and nothing else:
